@@ -1,0 +1,60 @@
+body {
+    background-color: lightgrey;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    margin: 5%;
+}
+.accordion {
+    margin: 2rem;
+}
+
+#who-are-we {
+    display: flex;
+}
+#lunch-examples {
+    display: flex;
+}
+#dinner-examples {
+    display: flex;
+}
+#specials {
+    display: flex;
+    justify-content: space-evenly;
+}
+#special-items {
+    display: flex;
+    
+}
+#special-items div {
+    margin-left: 3%;
+}
+#special-shout {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+
+}
+menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0%;
+}
+
+menu li {
+    list-style: none;
+    justify-content: center;
+}
+@media (min-width: 280px) and (max-width: 650px) {
+    #special-items {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+}
